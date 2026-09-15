@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy>=1.26,<2.0        # pinned <2.0: torch 2.2.x .numpy() is incompatible with NumPy 2.x, see TUTORIAL.md
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+
+# GW-specific
+gwosc>=0.7               # GWOSC event catalog + frame-file URL lookups
+h5py>=3.10                # reading GWOSC HDF5 frame files
+pycbc>=2.3                 # waveform generation (IMRPhenomD) + matched filtering
+
+# Simulation-based inference
+torch>=2.2,<2.3
+sbi>=0.22                  # SNPE + MAF normalizing-flow posterior estimation
+
+# Data access
+boto3>=1.34                # bronze S3 layer (Section 1 EDA only)
+requests>=2.31
+
+# Notebook + tests
+jupyter>=1.0
+pytest>=8.0
