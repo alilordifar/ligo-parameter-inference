@@ -4,4 +4,5 @@ __pycache__/
 .ipynb_checkpoints/
 .pytest_cache/
 .DS_Store
-artifact_bartifacts_bundle.zip
+artifacts_bundle.zip
+.vscode/
