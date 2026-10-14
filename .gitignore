@@ -6,4 +6,5 @@ __pycache__/
 .DS_Store
 artifacts_bundle.zip
 .vscode/
-
+notebooks/sbi-logs/
+tmp/
